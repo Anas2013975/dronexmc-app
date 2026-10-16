@@ -1,0 +1,6 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { --bg:#ffffff; --fg:#0b0b12; --card:#f3f4f8; --border:#d9dbe6; }
+[data-theme="dark"] { --bg:#07070d; --fg:#e8eaf6; --card:#11111c; --border:#26263a; }
+body { background: var(--bg); color: var(--fg); font-family: system-ui, "Segoe UI", Tahoma, sans-serif; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; }
+.btn { padding: .55rem 1rem; border-radius: 10px; background: linear-gradient(90deg,#00d4ff,#a855f7); color:#000; font-weight:600; }
